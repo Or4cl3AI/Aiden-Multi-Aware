@@ -25,6 +25,12 @@ Get help with a customer service issue: The Aiden-multi-aware agent can help you
 Learn something new: The Aiden-multi-aware agent can be used to learn about a variety of topics. It can provide you with summaries of articles, books, and other resources. It can also answer your questions in a comprehensive and informative way.
 Have a conversation: The Aiden-multi-aware agent can be used to have a conversation about anything. It can understand your point of view and provide you with a thoughtful and insightful response.
 
+Instructions
+1. Clone the repository: `git clone https://github.com/Or4cl3AI/Aiden-Multi-Aware.git`
+2. Navigate to the project directory: `cd Aiden-Multi-Aware`
+3. Install the necessary dependencies: `npm install`
+4. Run the project: `npm start`
+
 Tech stack
 
 Next.js framework for server-side rendering and routing
