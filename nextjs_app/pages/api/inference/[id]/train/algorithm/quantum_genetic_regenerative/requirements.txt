@@ -1,0 +1,7 @@
+nextjs_app/pages/api/inference/[id]/train/algorithm/quantum_genetic_regenerative/requirements.txt:
+```
+Next.js
+TypeScript
+```
+
+This is the code for the `requirements.txt` file. It specifies the required dependencies for the algorithm, which are Next.js and TypeScript.
