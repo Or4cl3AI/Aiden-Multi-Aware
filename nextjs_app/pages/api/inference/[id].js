@@ -1,7 +1,7 @@
 Here is the code for the file `nextjs_app/pages/api/inference/[id].js`:
 
 ```javascript
-import { query } from "../../../pages/api/inference/[id]";
+import { query } from "../../../pages/api/inference";
 ```
 The import statement should be updated to import the `query` function from the correct file `nextjs_app/pages/api/inference.js`.
 
@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   const data = {
     inputs: `Can you please let us know more details about your ${id}`,
-    audio: "audio_input_here" // Replace "audio_input_here" with the actual audio input
+    audio: audio_input_here // Replace "audio_input_here" with the actual audio input
   };
   ```
   Add a new property `audio` to the `data` object and set it to the audio input. Replace `"audio_input_here"` with the actual audio input.
