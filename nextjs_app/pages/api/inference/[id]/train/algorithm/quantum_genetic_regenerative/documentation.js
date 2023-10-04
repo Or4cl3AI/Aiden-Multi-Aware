@@ -1,4 +1,4 @@
-const documentationCode = `# "# "# Next.js App 
+const documentationCode = `# Next.js App 
 
 # \# # Aiden-multi-aware
 
