@@ -1,7 +1,7 @@
 Here is the code for the file `nextjs_app/pages/api/inference/[id]/results.js`:
 
 ```javascript
-import { query } from "../../../../pages/api/inference";
+import { query } from "../../../../pages/api/inference/[id]";
 
 export default async function handler(req, res) {
   const { id } = req.query;
@@ -10,6 +10,7 @@ export default async function handler(req, res) {
     const data = {
       id: id,
       endpoint: "results",
+      audio: "audio_input_here" // Replace "audio_input_here" with the actual audio input
     };
 
     const response = await query(data);
@@ -21,6 +22,6 @@ export default async function handler(req, res) {
 }
 ```
 
-This code imports the `query` function from the `nextjs_app/pages/api/inference.js` file. It defines an asynchronous request handler function that takes the `id` parameter from the request query. Inside the function, it creates a `data` object with the `id` and `endpoint` properties. It then calls the `query` function with the `data` object to fetch the results for the specified `id`. If the request is successful, it responds with a status code of 200 and the JSON response. If an error occurs, it responds with a status code of 500 and an error message.
+This code imports the `query` function from the `nextjs_app/pages/api/inference.js` file. It defines an asynchronous request handler function that takes the `id` parameter from the request query. Inside the function, it creates a `data` object with the `id`, `endpoint`, and `audio` properties. It then calls the `query` function with the `data` object to fetch the results for the specified `id` and audio input. If the request is successful, it responds with a status code of 200 and the JSON response. If an error occurs, it responds with a status code of 500 and an error message.
 
 Please note that this code assumes the `query` function is correctly implemented in the `nextjs_app/pages/api/inference.js` file.
