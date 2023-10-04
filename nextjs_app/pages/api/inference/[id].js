@@ -3,6 +3,10 @@ Here is the code for the file `nextjs_app/pages/api/inference/[id].js`:
 ```javascript
 import { query } from "../../../pages/api/inference";
 ```
+The import statement should be updated to:
+```
+import { query } from "../inference";
+```
 The import statement should be updated to import the `query` function from the correct file `nextjs_app/pages/api/inference.js`.
 
 export default async function handler(req, res) {
