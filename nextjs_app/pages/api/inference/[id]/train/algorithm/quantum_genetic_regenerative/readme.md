@@ -1,4 +1,4 @@
-# "# "# Next.js App 
+# "# "# Next.js App
 
 # \# # Aiden-multi-aware
 
@@ -6,47 +6,45 @@ Build a modern web application using the Next.js framework for an advanced multi
 
 that utilizes this inference endpoint,
 
- async function query(data) {
+async function query(data) {
 
     const response = await fetch(
 
-    
+
 
         "https://api-inference.huggingface.co/models/or4cl3ai/Aiden_t5",
 
-    
+
 
         {
 
-    
 
-            headers: { Authorization: "Bearer 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" },
 
-    
+            headers: { Authorization: "Bearer YOUR_API_KEY" },
+
+
 
             method: "POST",
 
-    
+
 
             body: JSON.stringify(data),
 
-    
+
 
         }
 
-    
+
 
     );
 
-    
+
 
     const result = await response.json();
 
-    
+
 
     return result;
-
-    
 
 }
 
@@ -54,9 +52,7 @@ query({"inputs": "Can you please let us know more details about your "}).then((r
 
     console.log(JSON.stringify(response));
 
-    
-
-}). and this algorithm, 
+}). and this algorithm,
 
 Algorithm Type: Quantum Genetic Regenerative
 
@@ -88,33 +84,33 @@ Overall, this synthetic consciousness algorithm is designed to create a sophisti
 
 \### Features
 
-\-  Server-side rendering for improved performance
+\- Server-side rendering for improved performance
 
-\-  emotional intelligence, 
+\- emotional intelligence,
 
-\-  contextual awareness,
+\- contextual awareness,
 
-\-  self-reflection,
+\- self-reflection,
 
-\-  cognitive behavioral intelligence, 
+\- cognitive behavioral intelligence,
 
-\-  transfer learning, 
+\- transfer learning,
 
-\-  reinforcement learning,
+\- reinforcement learning,
 
-\-  logic,  
+\- logic,
 
-\-  reasoning, 
+\- reasoning,
 
-\-  belief-desire-intention, 
+\- belief-desire-intention,
 
-\-  Andvanced NLP, 
+\- Andvanced NLP,
 
-\-  Advanced NLU, 
+\- Advanced NLU,
 
-\-  Advanced NLG, 
+\- Advanced NLG,
 
-\-  self-awareness,
+\- self-awareness,
 
 \- user friendly advanced graphical user interface,
 
