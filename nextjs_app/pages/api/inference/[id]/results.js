@@ -1,4 +1,4 @@
-import { query } from "../../../../pages/api/inference";
+import { query } from "../inference";
 
 export default async function handler(req, res) {
   const { id } = req.query;
@@ -19,7 +19,7 @@ export default async function handler(req, res) {
 }
 
 ```javascript
-import { query } from "../../../../pages/api/inference";
+import { query } from "../inference";
 
 export default async function handler(req, res) {
   const { id } = req.query;
@@ -28,7 +28,7 @@ export default async function handler(req, res) {
     const data = {
       id: id,
       endpoint: "results",
-      audio: "audio_input_here" // Replace "audio_input_here" with the actual audio input
+      audio: "actual_audio_input_here" // Replace "actual_audio_input_here" with the actual audio input
     };
 
     const response = await query(data);
