@@ -74,6 +74,6 @@ const IndexPage = () => {
 export default IndexPage;
 ```
 
-This code sets up a React functional component for the `IndexPage` in Next.js. It imports the `query` function from the `../api/inference` file, which is one of the shared dependencies we have decided on. The component makes use of the `useEffect` hook to fetch data from the inference endpoint and store the response in the component's state. The fetched data is displayed in the JSX markup, along with the details about the algorithm and the tech stack.
+The updated code sets up a React functional component for the `IndexPage` in Next.js. It imports the `query` function from the `../api/inference` file. The component uses the `useEffect` hook to fetch data from the inference endpoint using the `query` function and stores the response in the component's state. The fetched data is displayed in the JSX markup, along with the details about the algorithm and the tech stack.
 
 Please note that the code assumes the existence of the `query` function in the `../api/inference` file. Make sure to generate the code for that file as well.
