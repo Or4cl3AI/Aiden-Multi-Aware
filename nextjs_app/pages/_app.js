@@ -1,17 +1,14 @@
-Here is the code for the file `nextjs_app/pages/_app.js`:
-
-```javascript
-import React from 'react';
-import App from 'next/app';
+import React from "react";
+import App from "next/app";
 
 async function query(data) {
   const response = await fetch(
-    "https://api-inference.huggingface.co/models/or4cl3ai/Aiden_t5",
+    "https://api-inference.huggingface.co/models/or4cl3ai/Aiden_multi_aware",
     {
-      headers: { Authorization: "Bearer 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" },
+      headers: { Authorization: "Bearer YOUR_API_KEY" },
       method: "POST",
       body: JSON.stringify(data),
-    }
+    },
   );
 
   const result = await response.json();
@@ -27,6 +24,3 @@ class MyApp extends App {
 }
 
 export default MyApp;
-```
-
-This code imports the necessary dependencies and defines the `query` function for making API requests to the inference endpoint. It also extends the `App` component from Next.js and renders the `Component` with the `pageProps`.
