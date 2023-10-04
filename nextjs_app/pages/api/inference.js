@@ -1,4 +1,10 @@
-Here is the code for the file `nextjs_app/pages/api/inference.js`:
+import { query } from "./inference";
+
+export default async function handler(req, res) {
+  const data = req.body;
+  const response = await query(data);
+  res.status(200).json(response);
+}
 
 ```javascript
 import { query } from "../../api/inference";
