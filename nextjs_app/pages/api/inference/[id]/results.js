@@ -1,7 +1,25 @@
-Here is the code for the file `nextjs_app/pages/api/inference/[id]/results.js`:
+import { query } from "../../../../pages/api/inference";
+
+export default async function handler(req, res) {
+  const { id } = req.query;
+
+  try {
+    const data = {
+      id: id,
+      endpoint: "results",
+      audio: audio_input_here // Replace "audio_input_here" with the actual audio input
+    };
+
+    const response = await query(data);
+
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({ error: "An error occurred" });
+  }
+}
 
 ```javascript
-import { query } from "../../../../pages/api/inference/[id]";
+import { query } from "../../../../pages/api/inference";
 
 export default async function handler(req, res) {
   const { id } = req.query;
