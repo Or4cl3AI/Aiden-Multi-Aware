@@ -1,3 +1,3 @@
-const trainingEpochs = 1000;
+const trainingEpochs = 2000;
 
 export default trainingEpochs;
