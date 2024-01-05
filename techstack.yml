@@ -1,0 +1,84 @@
+repo_name: Or4cl3AI/Aiden-Multi-Aware
+report_id: 566f2de7d3591818fcae57d71c357913
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:34:16+00:00'
+requested_by: Or4cl3AI
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Or4cl3AI/Aiden-Multi-Aware
+  detection_source: Repo Metadata
+- name: Next.js
+  description: 'A small framework for server-rendered universal JavaScript apps '
+  website_url: https://nextjs.org/
+  version: 10.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/Or4cl3AI/Aiden-Multi-Aware/blob/main/nextjs_app/package.json
+  detection_source: nextjs_app/package.json
+  last_updated_by: sweep-ai[bot]
+  last_updated_on: 2023-10-01 16:52:44.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/Or4cl3AI/Aiden-Multi-Aware/blob/main/nextjs_app/package.json
+  detection_source: nextjs_app/package.json
+  last_updated_by: sweep-ai[bot]
+  last_updated_on: 2023-10-01 16:52:44.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Or4cl3AI/Aiden-Multi-Aware
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Or4cl3AI/Aiden-Multi-Aware/blob/main/nextjs_app/package.json
+  detection_source: nextjs_app/package.json
+  last_updated_by: sweep-ai[bot]
+  last_updated_on: 2023-10-01 16:52:44.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Or4cl3AI/Aiden-Multi-Aware/blob/main/nextjs_app/package.json
+  detection_source: nextjs_app/package.json
+  last_updated_by: sweep-ai[bot]
+  last_updated_on: 2023-10-01 16:52:44.000000000 Z
